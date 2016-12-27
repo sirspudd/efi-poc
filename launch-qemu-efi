@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+qemu-system-x86_64 -enable-kvm --bios /usr/share/ovmf/ovmf_x64.bin -net none -hda fat:hda-contents
